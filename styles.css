@@ -66,21 +66,22 @@ nav {
   font-size: 24px;
   line-height: 24px;
   letter-spacing: -0.44px;
+  color: var(--white);
+  text-decoration: none;
 }
 
-nav li {
+nav li,
+nav li a {
   text-decoration: none;
   display: inline;
   padding: 0 10px;
+  color: var(--white);
 }
 
-nav li:hover {
+nav li:hover,
+nav li a:hover {
   transition: all 250ms ease;
   color: var(--primary);
-}
-
-nav a:hover img path {
-  fill: var(--primary);
 }
 
 /* header */
