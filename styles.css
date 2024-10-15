@@ -173,6 +173,7 @@ header {
 
 .mob-btns {
   display: none;
+  gap: 10px;
 }
 
 /* Contact/Footer */
@@ -283,7 +284,7 @@ textarea {
   }
 
   .mob-btns {
-    display: block;
+    display: flex;
   }
 }
 
