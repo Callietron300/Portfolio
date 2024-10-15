@@ -70,6 +70,7 @@ nav {
   text-decoration: none;
   list-style-type: none;
   padding-left: 0;
+  cursor: pointer;
 }
 
 .nav li,
@@ -91,6 +92,11 @@ nav {
 header {
   width: 700px;
   margin: 100px 0;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
 }
 
 .btn {
