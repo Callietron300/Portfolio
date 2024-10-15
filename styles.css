@@ -68,18 +68,21 @@ nav {
   letter-spacing: -0.44px;
   color: var(--white);
   text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
 }
 
-nav li,
-nav li a {
+.nav li,
+.nav li a {
   text-decoration: none;
   display: inline;
   padding: 0 10px;
   color: var(--white);
 }
 
-nav li:hover,
-nav li a:hover {
+.nav li:hover,
+.nav li a:hover,
+.logo:hover {
   transition: all 250ms ease;
   color: var(--primary);
 }
